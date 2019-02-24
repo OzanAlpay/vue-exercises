@@ -269,6 +269,24 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 91967,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "Kitten Soccer",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }

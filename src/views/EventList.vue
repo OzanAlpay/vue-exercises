@@ -23,10 +23,35 @@
 <script>
 import EventCard from '@/components/EventCard.vue'
 import { mapState } from 'vuex'
+import store from '@/store/store'
+
+function getPageEvents(routeTo, next) {
+  const currentPage = parseInt(routeTo.query.page) || 1
+  store
+    .dispatch('event/fetchEvents', {
+      page: currentPage
+    })
+    .then(() => {
+      routeTo.params.page = currentPage
+      next()
+    })
+}
 export default {
   name: 'EventList',
   components: {
     EventCard
+  },
+  props: {
+    page: {
+      type: Number,
+      required: true
+    }
+  },
+  beforeRouteEnter(routeTo, routeFrom, next) {
+    getPageEvents(routeTo, next)
+  },
+  beforeRouteUpdate(routeTo, routeFrom, next) {
+    getPageEvents(routeTo, next)
   },
   created() {
     this.$store.dispatch('event/fetchEvents', {
@@ -35,11 +60,8 @@ export default {
     })
   },
   computed: {
-    page() {
-      return parseInt(this.$route.query.page) || 1
-    },
     showNext() {
-      return this.event.totalEventCount > this.page * 3
+      return this.event.totalEventCount > this.page * this.event.perPage
     },
     ...mapState(['event', 'user'])
   }

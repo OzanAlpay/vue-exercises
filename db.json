@@ -89,6 +89,186 @@
       "date": "2019-02-24T20:19:00.000Z",
       "time": "20:00",
       "attendees": []
+    },
+    {
+      "id": 26489,
+      "user": {
+        "id": "123",
+        "name": "Ozan Alpay"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan Alpay"
+      },
+      "title": "TUMi Welcome Day",
+      "description": "TUMi",
+      "location": "Marienplatz, München, DE",
+      "date": "2019-03-22T20:37:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 48398,
+      "user": {
+        "id": "123",
+        "name": "Ozan Alpay"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan Alpay"
+      },
+      "title": "qasd",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 66828,
+      "user": {
+        "id": "123",
+        "name": "Ozan Alpay"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan Alpay"
+      },
+      "title": "asdad",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 80759,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "Notification-Test",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 87530,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "Notification-Test",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 85316,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "asfsdfdffd",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 31726,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "adsda",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 83900,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "adfsfs",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 75819,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "sdafsdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 64601,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "adfssdfs",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }

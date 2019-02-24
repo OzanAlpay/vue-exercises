@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <NavBar />
-    </div>
-    <router-view />
+    <NavBar />
+    <NotificationContainer />
+    <router-view :key="$route.fullPath" />
+    <!-- Reload Page when Query Parameters Changed -->
   </div>
 </template>
 <script>
 import NavBar from '@/components/NavBar'
+import NotificationContainer from '@/components/NotificationContainer'
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    NotificationContainer
   }
 }
 </script>

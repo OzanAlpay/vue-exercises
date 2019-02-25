@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Beach Cleanup",
-      "date": "Aug 28 2018",
+      "date": "2019-02-24T20:19:00.000Z",
       "time": "10:00",
       "location": "Daytona Beach",
       "description": "Let's clean up this beach.",
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "title": "Park Cleanup",
-      "date": "Nov 12 2018",
+      "date": "2019-02-24T20:19:00.000Z",
       "time": "12:00",
       "location": "132 N Magnolia Street, Orlando, Florida",
       "description": "We're going to clean up this park.",
@@ -51,7 +51,7 @@
     {
       "id": 3,
       "title": "Pet Adoption Day",
-      "date": "Dec 2 2018",
+      "date": "2019-02-24T20:19:00.000Z",
       "time": "12:00",
       "location": "132 N Magnolia Street, Orlando, Florida",
       "description": "Help animals find new homes.",
@@ -322,6 +322,24 @@
       "location": "",
       "date": "",
       "time": "",
+      "attendees": []
+    },
+    {
+      "id": 64133,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "Apartment Hunting",
+      "description": "Hunt",
+      "location": "Munich DE",
+      "date": "2019-02-18T00:59:00.000Z",
+      "time": "18:00",
       "attendees": []
     }
   ]

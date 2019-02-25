@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store/store'
+import DateFilter from './filters/date'
 
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
@@ -9,6 +10,9 @@ import Vuelidate from 'vuelidate'
 
 import 'nprogress/nprogress.css'
 
+Vue.use(Vuelidate)
+Vue.filter('date', DateFilter)
+Vue.config.productionTip = false
 const requireComponent = require.context(
   './components',
   false,
@@ -23,8 +27,6 @@ requireComponent.keys().forEach(fileName => {
 
   Vue.component(componentName, componentConfig.default || componentConfig)
 })
-Vue.use(Vuelidate)
-Vue.config.productionTip = false
 
 new Vue({
   router,

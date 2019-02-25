@@ -1,20 +1,16 @@
 <template>
   <div>
-    <button
-      v-on="$listeners"
-      class="button"
-      :class="buttonClass"
-      v-bind="$attrs"
-    >
+    <button v-on="$listeners" class="button" :class="buttonClass" v-bind="$attrs">
       <slot></slot>
     </button>
   </div>
 </template>
 
 <script>
+import { formFieldMixin } from '../mixins/formFieldMixin'
 export default {
   name: 'BaseButton',
-  inheritAttrs: false,
+  mixins: [formFieldMixin],
   prop: {
     buttonClass: {
       type: String

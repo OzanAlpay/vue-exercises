@@ -287,6 +287,24 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 48186,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "Kitty Kit",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "22:00",
+      "attendees": []
     }
   ]
 }

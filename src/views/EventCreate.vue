@@ -5,15 +5,14 @@
       v-model="event.category"
       :options="categories"
       :selected="option === value"
+      :class="{ error: $v.event.category.$error }"
+      @blur="$v.event.category.$touch()"
     />
+    <template v-if="$v.event.category.$error">
+      <p v-if="!$v.event.category.required">Category is required</p>
+    </template>
     <h3>Name & describe your event</h3>
-    <BaseInput
-      label="Title"
-      v-model="event.title"
-      type="text"
-      placeholder="Title"
-      class="field"
-    />
+    <BaseInput label="Title" v-model="event.title" type="text" placeholder="Title" class="field"/>
     <BaseInput
       label="Description"
       v-model="event.description"
@@ -32,7 +31,7 @@
     <h3>When is your event?</h3>
     <div class="field">
       <label>Date</label>
-      <DatePicker v-model="event.date" placeholder="Select a date" />
+      <DatePicker v-model="event.date" placeholder="Select a date"/>
     </div>
     <BaseSelect
       label="Select Time"
@@ -47,6 +46,7 @@
 <script>
 import DatePicker from 'vuejs-datepicker'
 import NProgress from 'nprogress'
+import { required } from 'vuelidate/lib/validators'
 export default {
   name: 'EventCreate',
   components: {
@@ -61,6 +61,16 @@ export default {
       times,
       categories: this.$store.state.categories,
       event: this.createFreshEventObject()
+    }
+  },
+  validations: {
+    event: {
+      category: { required },
+      title: { required },
+      description: { required },
+      location: { required },
+      date: { required },
+      time: { required }
     }
   },
   methods: {

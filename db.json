@@ -305,6 +305,24 @@
       "date": "",
       "time": "22:00",
       "attendees": []
+    },
+    {
+      "id": 12652,
+      "user": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "category": "",
+      "organizer": {
+        "id": "123",
+        "name": "Ozan"
+      },
+      "title": "asdsd",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }

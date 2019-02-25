@@ -1,29 +1,10 @@
-# real-world-vue
+## Vue Mastery Course ##
 
-## Project setup
-```
-npm install
-```
+* ```npm install```
+* ```json-server -d 1500 --watch db.json``` 
+* ```npm run serve```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Note: -d 1500 required to observe progress bar properly.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

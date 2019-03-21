@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/OzanAlpay/vue-exercises.svg?branch=master)](https://travis-ci.org/OzanAlpay/vue-exercises)
+
 ## Vue Mastery Course ##
 
 * ```npm install```

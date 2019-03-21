@@ -14,6 +14,5 @@ describe('NotificationBarComponent Test', () => {
 
   it('Check if Notification Text is displayed', () => {
     cy.contains('.notificationTypeClass', 'Notification Test')
-    cy.wait(7000)
   })
 })

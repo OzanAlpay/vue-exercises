@@ -11,7 +11,7 @@
     "backend": "json-server -d 1500 --watch db.json"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "lodash": "^4.17.11",
     "nprogress": "^0.2.0",
     "vue": "^2.6.6",
